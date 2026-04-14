@@ -1,4 +1,4 @@
-# Neothera – Skin Intelligence Dashboard
+# [Neothera – Skin Intelligence Dashboard](https://neothera-skin-intelligence.vercel.app/)
 
 **An AI-powered habit tracking and skin health analytics platform that correlates daily habits with skin condition changes.**
 
