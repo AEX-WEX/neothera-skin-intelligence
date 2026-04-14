@@ -71,14 +71,14 @@ export function StreakTracker({ data }: StreakTrackerProps) {
         {/* Data Completeness */}
         <div className="border border-orange-200 rounded-lg p-4 bg-orange-50/50 flex flex-col items-center justify-center text-center min-w-0">
           <p className="text-label text-orange-700 break-words">Data Quality</p>
-          <p className="text-value mt-2 text-orange-600">{completenessScore}%</p>
+          <p className="text-3xl font-bold mt-2 text-orange-600">{completenessScore}%</p>
           <p className="text-xs text-slate-500 mt-2 break-words">entries complete</p>
         </div>
 
         {/* Pattern Variety */}
         <div className="border border-pink-200 rounded-lg p-4 bg-pink-50/50 flex flex-col items-center justify-center text-center min-w-0">
           <p className="text-label text-pink-700 break-words">Pattern Variety</p>
-          <p className="text-value mt-2 text-pink-600">{dataQualityPercent.toFixed(0)}%</p>
+          <p className="text-3xl font-bold mt-2 text-pink-600">{dataQualityPercent.toFixed(0)}%</p>
           <p className="text-xs text-slate-500 mt-2 break-words">habit diversity</p>
         </div>
       </div>
