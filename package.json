@@ -1,12 +1,19 @@
 {
-  "name": "neothera",
+  "name": "neothera-skin-intelligence",
   "version": "1.0.0",
+  "description": "AI-powered habit tracking and skin health analytics platform. Correlates daily habits with skin observations to provide personalized insights.",
+  "author": "Neothera Contributors",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AEX-WEX/neothera-skin-intelligence.git"
   },
   "dependencies": {
     "next": "^14.2.0",
